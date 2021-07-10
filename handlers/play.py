@@ -146,8 +146,8 @@ async def play(_, message: Message):
     elif url:
         try:
             results = YoutubeSearch(url, max_results=1).to_dict()
-           # url = f"https://youtube.com{results[0]['url_suffix']}"
-            #print(results)
+            url = f"https://youtube.com{results[0]['url_suffix']}"
+            print(results)
             title = results[0]["title"][:40]       
             thumbnail = results[0]["thumbnails"][0]
             thumb_name = f'thumb{title}.jpg'
