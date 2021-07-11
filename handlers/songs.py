@@ -22,8 +22,13 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('🔎 ꜰɪɴᴅɪɴɢ ᴛʜᴇ ꜱᴏɴɢ...')
-    ydl_opts = {"format": "bestaudio[ext=m4a]"}
+    shed = message.reply("🔎 ʜɪɢʜ Qᴜᴇʟɪᴛʏ ꜱᴏɴɢ ꜰɪɴᴅ ᴇꜱᴘᴏʀᴛ ᴘʟᴀʏᴇʀ)
+    ydl_opts = {
+       "format": "bestaudio[ext=m4a]",
+       "geo-bypass": True,
+       "nocheckcertificate": True,
+       "outtmpl": "downloads/%(id)s.%(ext)s",
+       }
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
         link = f"https://youtube.com{results[0]['url_suffix']}"
