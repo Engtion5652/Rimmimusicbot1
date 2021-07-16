@@ -1,11 +1,14 @@
 pyrogram
 TgCrypto
-git+https://github.com/pytgcalls/pytgcalls
+py-tgcalls==0.5.2
 python-dotenv
 youtube_dl
 youtube_search_python
 requests
 aiohttp
+aiofiles
 asyncio
 youtube_search
 search_engine_parser
+ffmpeg
+Pillow
