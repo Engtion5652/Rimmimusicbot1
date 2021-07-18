@@ -13,7 +13,7 @@ async def start(_, message: Message):
 
 🌼ᴛʜɪꜱ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Its_Hexor & @Sanki_Owner\n⭐ᴘʀᴏꜰᴇꜱꜱɪᴏɴᴀʟ ᴀɴᴅ ꜱᴜᴘᴇʀ-ꜰᴀꜱᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ ʙᴏᴛ\n\nꜰᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ [❰ᴄʟɪᴄᴋ❱](https://t.me/esportcheater).
 
-✌ᴇꜱᴘᴏʀᴛ✘ᴄʟᴀɴ ᴏꜰꜰɪᴄɪᴀʟ ᴍᴜꜱɪᴄ ʙᴏᴛ /status**
+✌ᴇꜱᴘᴏʀᴛ✘ᴄʟᴀɴ ᴏꜰꜰɪᴄɪᴀʟ ᴍᴜꜱɪᴄ ʙᴏᴛ**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
