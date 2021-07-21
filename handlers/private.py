@@ -7,43 +7,42 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgEAAxkBAAIN52Dz6RgJs3LErFPsRpFt_ZdmdjH5AAILAQACT_MRR6hWRja4ZrgeIAQ")
+    
     await message.reply_text(
-        f"""**ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴇꜱᴘᴏʀᴛ ᴍᴜꜱɪᴄ ʙᴏᴛ🌹
-
-🌼ᴛʜɪꜱ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Its_Hexor & @Sanki_Owner\n⭐ᴘʀᴏꜰᴇꜱꜱɪᴏɴᴀʟ ᴀɴᴅ ꜱᴜᴘᴇʀ-ꜰᴀꜱᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ ʙᴏᴛ\n\nꜰᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ [❰ᴄʟɪᴄᴋ❱](https://t.me/esportcheater).
-
-✌ᴇꜱᴘᴏʀᴛ✘ᴄʟᴀɴ ᴏꜰꜰɪᴄɪᴀʟ ᴍᴜꜱɪᴄ ʙᴏᴛ**
+        f"""**
+❰ꜱᴍᴏᴋᴇʀ✘ʜᴇxᴏʀ❱ ꜱᴜᴘᴇʀ ꜰᴀꜱᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴇʟ ʜɪɢʜ Qᴜᴇʟɪᴛʏ ᴍᴜꜱɪᴄ [ɢʀᴏᴜᴘ](https://t.me/EsportCheater).
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟʏ!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
-      [
+                [
                     InlineKeyboardButton(
-                        "❰ᴇꜱᴘᴏʀᴛ✘ᴄʟᴀɴ❱", url="https://t.me/esportcheater"
+                        "❰Oᴡɴᴇʀ❱", url="https://t.me/Its_Hexor")
+                  ],[
+                    InlineKeyboardButton(
+                        "❰Sᴜᴩᴩᴏʀᴛ❱", url="https://t.me/EsportCheater"
                     ),
                     InlineKeyboardButton(
-                        "❰ꜱᴜᴘᴘᴏʀᴛ❱", url="https://t.me/SankiPublicEnjoy"
+                        "❰ɢʀᴏᴜᴘ❱", url="https://t.me/EsportCheater"
                     )
-                ]
+                ],[ 
+                    InlineKeyboardButton(
+                        "❰ᴀᴅᴅ ᴍᴇ ɪɴ ᴜʀ ɢʀᴏᴜᴘ❱", url="https://t.me/EsportPlayerBot?startgroup=true"
+                    )]
             ]
         ),
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("status") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**ɢʀᴏᴜᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴏɴʟɪɴᴇ ✅**""",
+      await message.reply_text("""**Aᴍ Oɴʟɪɴᴇ ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ", url="https://t.me/Its_Hexor")
+                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/EsportCheater")
                 ]
             ]
         )
    )
-
-
-
-
-

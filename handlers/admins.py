@@ -33,7 +33,7 @@ async def resume(_, message: Message):
     ) or (
             callsmusic.pytgcalls.active_calls[message.chat.id] == 'playing'
     ):
-        await message.reply_text("❗ ɴᴏᴛʜɪɴɢ ɪꜱ ᴘʟᴀʏɪɴɢ!")
+        await message.reply_text("❗ ɴᴏᴛʜɪɴɢ ɪꜱ ᴘᴀᴜꜱᴇᴅ!")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
         await message.reply_text("⏸ ʀᴇꜱᴜᴍᴇᴅ!")
@@ -52,7 +52,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("❌ ꜱᴛᴏᴘᴘᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ!")
+        await message.reply_text("❌ꜱᴛᴏᴘᴘᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ!")
 
 
 @Client.on_message(command("skip") & other_filters)
