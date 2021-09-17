@@ -3,6 +3,8 @@
 𝐓𝐡𝐞 𝐄𝐚𝐬𝐢𝐞𝐬𝐭 𝐖𝐚𝐲 𝐓𝐨 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/rakeshyt1/DevilHackerMusic4"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-grey?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
+[𝐎𝐮𝐫 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 t.me/DevilHackerMusicBot](t.me/DevilHackerMusicBot)
+
 Get STRING_NAME from here:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-brown)](https://replit.com/@Botsupport/PatriciaXmusic)
