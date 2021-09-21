@@ -27,7 +27,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😁❰𝗖𝗼𝗺𝗺𝗮𝗱𝘀❱😁", url="https://telegra.ph/Commands-For---Devil-Hacker-Music-09-17"
+                        "😁❰𝗖𝗼𝗺𝗺𝗮𝗱𝘀❱😁", url="https://telegra.ph/Commands-For---Rimmi-Music-Bot-09-21"
                     )]
             ]
         ),
@@ -36,7 +36,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("Royal") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🕊️⃝🦋 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝗻𝗹𝗶𝗻𝗲 𝗡𝗼𝘄\n🌠 @Royals_heart <3**""",
+      await message.reply_text("""**🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️ 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝗻𝗹𝗶𝗻𝗲 𝗡𝗼𝘄\n🌠 @Royals_heart <3**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
