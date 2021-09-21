@@ -1,8 +1,8 @@
 {
-  "name": "🕊️⃝🦋𝘿𝙚𝙫𝙞𝙡➳𝙃𝙖𝙘𝙠𝙚𝙧➳𝙈𝙪𝙨𝙞𝙘🕊️⃝🦋",
+  "name": "🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/rakeshyt/DevilHackerMusic3",
+  "repository": "https://github.com/Engtion 5652/Rimmimusicbot1",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,7 +16,7 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "🕊️⃝🦋𝘿𝙚𝙫𝙞𝙡➳𝙃𝙖𝙘𝙠𝙚𝙧➳𝙈𝙪𝙨𝙞𝙘🕊️⃝🦋"
+      "value": "🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -29,12 +29,12 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
-      "value": "1614665870 1960737763"
+      "value": "1722674180 1896146893"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "30"
     }
   }
 }
