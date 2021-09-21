@@ -285,7 +285,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰🕊️⃝🇮🇳★𝐃𝐞𝐯𝐢𝐋😈𝐇𝐚𝐜𝐤𝐞𝐫★🇮🇳⃝🕊️❱❰@DevilHackerRakesh❱ 𝐍𝐨𝐰 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
+        caption="**❰🕊️⃝🇮🇳★𝙍𝙤𝙮𝙖𝙡❤️𝙃𝙚𝙖𝙧𝙩★🇮🇳⃝🕊️❱❰@Royals_heart❱ 𝐍𝐨𝐰 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
         message.chat.title
         ), )
         os.remove("final.png")
