@@ -1,7 +1,7 @@
 {
   "name": "🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "logo": "https://telegra.ph/file/874260f1a57fee316707b.jpg",
+  "logo": "",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/Engtion5652/Rimmimusicbot1",
   "stack": "container",
